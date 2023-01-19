@@ -153,7 +153,6 @@ const FirebaseRegister = ({ ...others }) => {
                 {({ errors, handleBlur, handleChange, handleSubmit, isSubmitting, touched, values }) => (
                     <form noValidate onSubmit={handleSubmit} {...others}>
                         <Grid container spacing={matchDownSM ? 0 : 2}>
-                       
                             <Grid item xs={12} sm={6}>
                                 <TextField
                                     fullWidth
